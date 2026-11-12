@@ -1,0 +1,35 @@
+TRABAJO PARA TODOS — BARCELONA
+Primera versión sencilla (sitio web estático)
+
+ARCHIVOS
+- index.html: web pública.
+
+QUÉ INCLUYE
+- Diseño adaptable a móvil y ordenador.
+- Buscador por puesto y municipio.
+- Filtros por sector y jornada.
+- Contacto directo por correo con la empresa.
+- Enlace para que las empresas soliciten publicar una oferta.
+- Sin cuentas, sin pagos y sin base de datos externa.
+- No se publican ofertas inventadas: el listado empieza vacío.
+
+CÓMO AÑADIR UNA OFERTA
+1. Abre index.html con un editor de texto (por ejemplo, Bloc de notas).
+2. Busca la línea: const jobs = [
+3. Dentro del corchete pega una oferta siguiendo este ejemplo:
+
+{ id: 1, title: "Dependiente/a", company: "Empresa Ejemplo", city: "Badalona", category: "Comercio", contract: "Parcial", salary: "Según convenio", description: "Atención al cliente y reposición.", email: "rrhh@empresa.es" }
+
+4. Guarda el archivo y vuelve a subir index.html a GitHub Pages para actualizar la web.
+5. Para varias ofertas, sepáralas con comas.
+
+IMPORTANTE SOBRE LOS DATOS
+Esta primera versión no guarda datos personales de candidatos. El botón de contacto abre el programa de correo del visitante y prepara un mensaje dirigido a la empresa. Las ofertas se escriben en el archivo local index.html y se publican cuando el administrador actualiza la web.
+
+ANTES DE PUBLICAR
+- Sustituye CAMBIAR_CORREO en el enlace de solicitud de publicación por el correo de administración que quieras utilizar.
+- Publica únicamente ofertas reales y autorizadas por la empresa.
+- Añade una política de privacidad y datos de contacto del responsable antes de recoger datos personales mediante formularios.
+
+PUBLICACIÓN
+Sube index.html al repositorio de GitHub Pages que ya utilizas y confirma que Pages sirve ese archivo como página principal. Si el repositorio tiene otro nombre, conserva la URL actual de tu proyecto.
